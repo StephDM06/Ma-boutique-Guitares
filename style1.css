@@ -1,0 +1,64 @@
+.logo{
+    width: 200px;
+    height: 70px;
+}
+body{
+    background-color: brown;
+}
+.choix{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+img{
+    width: 100%;
+    position: relative;
+    bottom:-10px;
+}
+h2{
+    color: white;
+}
+.trait{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin-top: 5%;
+}
+.lien {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+button{
+    border-radius: 10x solid;
+}
+.buttonacheter {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .buttonacheter:hover {
+    background-color: brown;
+    color:white;
+  }
+  
+  .buttonacheter:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }

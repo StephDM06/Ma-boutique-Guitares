@@ -1,0 +1,79 @@
+.logo{
+    width: 200px;
+    height: 70px;
+}
+img{
+    width: 100%;
+    max-height: 300px;
+}
+.choix{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.lien {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+.gratte{
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    color: White;
+    padding-right:35px;
+    text-align: right;
+}
+.gibson img{
+    max-height: 30%;
+}
+.lespauls img{
+    max-height: 30%;
+}
+.fender img{
+    max-height: 30%;
+}
+.bcrich img{
+    max-height: 30%;
+}
+.trait{
+    width: 100%;
+    height: 5px;
+    background-color: brown;
+    margin-top: 5%;
+}
+button{
+    border-radius: 10x solid;
+}
+.buttonacheter {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .buttonacheter:hover {
+    background-color: brown;
+    color:white;
+  }
+  
+  .buttonacheter:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+
